@@ -14,7 +14,7 @@
         integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
         crossorigin="anonymous"></script>
     <header class="container">
-        <nav class="navbar navbar-expand-lg bg-light">
+        <nav class="navbar navbar-expand-lg bg-light fixed-top">
             <div class="container">
                 <a class="navbar-brand" href="#">
                     <img src="images/logo.png" alt="">
@@ -30,15 +30,15 @@
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Shoes</a>
+                            <a class="nav-link" href="#shoes">Shoes</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Backpack</a>
+                            <a class="nav-link" href="#backpack">Backpack</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Subscribe</a>
+                            <a class="nav-link" href="#subscribe">Subscribe</a>
                         </li>
 
 
@@ -151,7 +151,7 @@
         </section>
         <!-- categories end -->
         <!-- shoes section start -->
-        <section class="container my-5">
+        <section class="container my-5" id="shoes">
             <h3>Shoes</h3>
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
                 <div class="col">
@@ -202,7 +202,7 @@
         </section>
         <!-- shoes section end -->
         <!-- backpack section start -->
-        <section class="container my-5">
+        <section class="container my-5" id="backpack">
             <h3>Backpack</h3>
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
                 <div class="col">
@@ -252,8 +252,26 @@
 
         </section>
         <!-- backpack section end -->
+        <!-- subscribe started -->
+        <section style="height: 350px;"
+            class="container d-flex rounded-3 justify-content-center align-items-center bg-info" id="subscribe">
+            <div>
+                <h2>Lets stay in touch</h2>
+                <p>Get update on sales,specials and more</p>
+                <form>
+                    <div class="mb-1">
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    </div>
+                    <button type="submit" class="btn btn-warning">Subscribe</button>
+                </form>
+            </div>
+        </section>
+        <!-- subscribe end -->
     </main>
-
+    <footer class="mt-5 text-center">
+        <p><small>All right reserved by Diprodip Das</small></p>
+    </footer>
 </body>
+
 
 </html>
